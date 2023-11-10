@@ -67,6 +67,7 @@ form button {
     justify-content: space-between;
     text-align: center;
     margin: 0px 5px;
+    
 }
 
 .bus {
@@ -124,12 +125,15 @@ form button {
 }
 
 .profile__info h3 {
-    margin-left: 130px;
+    margin-left: 120px;
     margin-top: 10px;
+}
+.profile__info p {
+    margin-left: 50px;
 }
 
 .profile__info h4 {
-    margin-left: 10px;
+    margin-left: -50px;
     margin-top: 5px;
 }
 
@@ -146,14 +150,14 @@ form button {
 }
 
 .try {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 15px;
 }
 
 /* Background : profile_visitors */
 .profile__visitors {
     min-width: 100%;
-    height: 30vh;
+    height: 32vh;
     margin-top: 10px;
     border-radius: 10px;
     background-color: rgb(56, 56, 64);
@@ -162,19 +166,19 @@ form button {
 .profile__visitors img {
     width: 90px;
     height: 90px;
-    margin-left: 90px;
+    margin-left: 50px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
 
 .profile__visitors h3 {
     margin-top: -10px;
-    margin-left: 90px;
+    margin-left: 50px;
 }
 
 .profile__visitors li {
     list-style: none;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 5px;
 }
 
@@ -182,7 +186,7 @@ form button {
     width: 20vw;
     height: .5px;
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 50px;
     background-color: rgb(166, 166, 166);
 }
 
@@ -218,7 +222,7 @@ form button {
 
 .posts__search {
     min-width: 100%;
-    height: 100px;
+    height: 120px;
     border-radius: 10px;
     margin-top: 10vh;
     background-color: rgb(56, 56, 64);
@@ -236,7 +240,7 @@ form button {
 }
 
 .posts__search button {
-    width: 33vw;
+    width: 80vw;
     height: 40px;
     margin-bottom: 20px;
     margin-top: 15px;
@@ -246,7 +250,10 @@ form button {
 }
 
 .feed__inputOptions {
-    display: none;
+    display:flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: -10px;
 }
 
 .posts_line {
@@ -336,15 +343,15 @@ form button {
 .notify__line {
     width: 905px auto;
     height: .5px;
-    margin-top: 20px;
+    justify-content: space-between;
     background-color: grey;
 }
 .notify ul {
     display: flex;
     list-style: none;
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
     padding: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* NETWORK COLUMN */
@@ -1125,6 +1132,23 @@ form button {
         padding: 20px;
         justify-content: space-between;
     }
+    .notify ul li:hover {
+        cursor: pointer;
+    }
+    .more__feed {
+        position: relative;
+        padding: 10px;
+        height: 50px;
+        margin-top: 10PX;
+        border-radius: 10px;
+        background-color: rgb(56, 56, 64);
+    }
+    .more__feed button {
+        margin-left: 30px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 10px;
+    }
 
     /* NETWORK COLUMN */
     .network {
@@ -1135,9 +1159,7 @@ form button {
         margin-top: 20px;
         margin-left: 1.5vw;
         border-radius: 10px;
-
     }
-
     .network_info {
         display: block;
         width: 20vw;
