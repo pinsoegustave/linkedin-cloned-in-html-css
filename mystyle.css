@@ -353,6 +353,9 @@ form button {
     padding: 20px;
     justify-content: space-around;
 }
+.more__feed {
+    display: none;
+}
 
 /* NETWORK COLUMN */
 .network {
