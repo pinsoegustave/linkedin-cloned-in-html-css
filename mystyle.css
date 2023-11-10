@@ -1139,6 +1139,7 @@ form button {
         cursor: pointer;
     }
     .more__feed {
+        display: block;
         position: relative;
         padding: 10px;
         height: 50px;
